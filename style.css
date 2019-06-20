@@ -1,0 +1,136 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+
+
+.lol{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	align-content: center;
+	z-index: 2;
+
+
+}
+
+.lel{
+	background-color: white;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid black;
+	width: 40%;
+	border-radius: 17px;
+	box-shadow:0 0 10px;
+
+}
+
+div p{
+	text-align: center;
+
+}
+
+.but{
+	border-radius: 10px;
+
+}
+
+#can{
+	background-color: white;
+	float: left;
+}
+
+#inp{
+	background-color: white;
+	float: right;
+
+}
+
+#val{
+	margin-left: 120px;
+
+}
+
+
+
+
+
+#next{
+	float: right;
+}
+
+
+ 
+
+#today{
+	margin-left: 480px;
+}
+
+
+
+
+
+table td{
+	width: 120px;
+	height: 60px;
+	border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+table{
+	margin-left: 60px;
+	z-index: 1;
+	margin-top: 0px;
+}
+
+.month{
+	font-size: 28px;
+	text-align: center;
+	border: 1px solid purple;
+	margin-top: 0px;
+}
+
+td{
+	cursor: pointer;
+}
+
+#sec{
+	display: none;
+	margin-top: -20px;
+
+}
+
+#tre{
+	display: none;
+}
+
+
+table td{
+	border-radius: 20px;
+	border-color: purple;
+	font-size: 20px;
+	transition-timing-function: linear;
+	transition-duration: 1s;
+
+}
+
+table td:hover {
+	transform: scale(1.2,1.2);
+
+}
+
+.wend{
+	color: purple;
+}
+
+button{
+	border-radius: 30px;
+	margin: 20px;
+}
